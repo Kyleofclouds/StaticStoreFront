@@ -1,0 +1,111 @@
+body{
+    font-family: fantasy;
+    background: blue url(imgs/destinycover.jpg) no-repeat fixed center;
+    object-fit: cover;
+    padding:0;
+    margin:0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+.utilityMenu{
+    float:right;
+}
+
+.utilityMenu li{
+    display: inline-block;
+    margin:5px 2px 0 4px;
+}
+
+.acctNav a{
+    color:rgb(0, 255, 0);
+}
+
+header{
+    height: 250px;
+    background-image: url(imgs/destinycrew.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.greeting{
+    text-align: center;
+    font-style:italic;
+    color: #ffd700;
+    padding: 3.5em 0 0 0;
+}
+
+h1{
+    color: rgb(104, 238, 26);
+    margin: 1px 0 1px 1px;
+}
+
+h2{
+    margin:3px 0 0 0;
+    color:rgb(104, 238, 26);
+}
+
+.panel img{
+    height: 75%;
+    width: 100%;
+}
+button{
+    width: 150px;
+    background-color:rgb(87, 43, 43);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20%;
+}
+
+footer{
+    text-align:center;
+}
+
+footer li{
+    color:rgb(104, 238, 26);
+    display:inline-block;
+}
+
+footer li a{
+    color: rgb(104, 238, 26);
+}
+
+#pipe{
+    color:rgb(104, 238, 26);
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.panel{
+    width:30%;
+    float:left;
+}
+
+.description{
+    width:70%;
+    float:right;
+}
+
+.description ul{
+    color:red;
+}
+
+.description p{
+    color: red;
+}
+
+section{
+    margin:0 .5em; 
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    flex: 1 50%;
+}
